@@ -123,7 +123,6 @@
         <div class="flex justify-center animate-fade-in-left">
             <div class="relative group">
                 <div class="absolute -inset-4 border-2 border-[#d9a5a5] rounded-2xl rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
-                
                 <div class="relative p-3 bg-white border border-gray-100 shadow-2xl rounded-2xl w-72 h-80 md:w-80 md:h-96 overflow-hidden transform group-hover:scale-[1.02] transition-transform duration-300">
                     <img src="https://raw.githubusercontent.com/Marliya-Lestriani03/portfolio-lymarliyaa/f8168bc1d9499d0fe62537c9879986562d9ddb89/images/home.jpg" alt="Marliya Lestriani"
                          class="w-full h-full object-cover rounded-lg">
