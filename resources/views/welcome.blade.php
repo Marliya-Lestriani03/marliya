@@ -166,7 +166,7 @@
             
             <div class="absolute transform -translate-x-12 -translate-y-16 rotate-[-8deg] hover:rotate-0 transition-all duration-500 z-10">
                 <div class="bg-white p-3 pb-10 shadow-xl rounded-sm border border-gray-100">
-                    <img src="{{ asset('images/aboutme.jpg') }}" 
+                    <img src="{{ asset('https://raw.githubusercontent.com/Marliya-Lestriani03/marliya/78eb3ee3386faa82cddb7fe5e9ee64e89651a510/images/aboutme.jpg') }}" 
                          alt="Foto Marliya 1" 
                          class="w-44 md:w-56 h-auto transition-all duration-700 rounded-sm object-cover aspect-[3/4]">
                     <p class="mt-4 text-center font-serif text-[#6b3e3e] italic opacity-50 text-[10px]">Marliya Lestriani</p>
