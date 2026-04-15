@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Portfolio Marliya</title>
 
-    @vite('resources/css/app.css')
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
         html {
@@ -81,7 +81,7 @@
                 Sertifikat
                 <span class="absolute -bottom-1 left-0 w-0 h-[1.5px] bg-[#6b3e3e] transition-all duration-300 group-hover:w-full"></span>
             <a href="#pengalaman" class="relative text-xs font-bold text-white uppercase tracking-widest hover:text-[#6b3e3e] transition-colors group focus:outline-none">
-                Sertifikat
+                Pengalaman
                 <span class="absolute -bottom-1 left-0 w-0 h-[1.5px] bg-[#6b3e3e] transition-all duration-300 group-hover:w-full"></span>
             </a>
         </div>
@@ -125,7 +125,7 @@
                 <div class="absolute -inset-4 border-2 border-[#d9a5a5] rounded-2xl rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
                 
                 <div class="relative p-3 bg-white border border-gray-100 shadow-2xl rounded-2xl w-72 h-80 md:w-80 md:h-96 overflow-hidden transform group-hover:scale-[1.02] transition-transform duration-300">
-                    <img src="/images/home.jpg" alt="Marliya Lestriani"
+                    <img src="images/home.jpg" alt="Marliya Lestriani"
                          class="w-full h-full object-cover rounded-lg">
                 </div>
             </div>
@@ -435,7 +435,7 @@
                     <li class="flex gap-2"><span>•</span> Perbaikan Printer</li>
                 </ul>
 
-                <a href="URL_DRIVE_PBL_DISINI" target="_blank" class="w-full py-3 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
+                <a href="https://drive.google.com/drive/folders/1b87pRYiz3uy8c1uB8YdY_ghSilE6ElMT" target="_blank" class="w-full py-3 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
                     <span>DOCUMENTATION</span>
                     <span class="text-lg">📁</span>
                 </a>
@@ -475,7 +475,7 @@
                     </div>
                 </div>
 
-                <a href="URL_DRIVE_MAGANG_DISINI" target="_blank" class="w-full py-3 mt-8 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
+                <a href="https://drive.google.com/drive/folders/1b87pRYiz3uy8c1uB8YdY_ghSilE6ElMT" target="_blank" class="w-full py-3 mt-8 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
                     <span>DOCUMENTATION</span>
                     <span class="text-lg">📁</span>
                 </a>
