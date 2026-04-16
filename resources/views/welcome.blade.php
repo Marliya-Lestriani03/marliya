@@ -88,7 +88,7 @@
 
         <div class="flex items-center gap-4">
             <a href="#contact" class="hidden sm:block text-[10px] font-bold text-[#6b3e3e] border-b border-[#6b3e3e] pb-1 hover:text-[#d9a5a5] hover:border-[#d9a5a5] transition-all uppercase tracking-widest focus:outline-none">
-                Contact
+                Contacts
             </a>
             <button class="md:hidden w-10 h-10 flex items-center justify-center focus:outline-none">
                 <div class="space-y-1.5">
