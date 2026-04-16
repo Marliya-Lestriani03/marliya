@@ -5,7 +5,7 @@ declare(strict_types=1);
 $root = dirname(__DIR__);
 $templatePath = $root . '/resources/views/welcome.blade.php';
 $manifestPath = $root . '/public/build/manifest.json';
-$distPath = $root . '/dist';
+$distPath = $root . '/docs';
 
 if (! file_exists($templatePath)) {
     fwrite(STDERR, "Template not found: {$templatePath}\n");
