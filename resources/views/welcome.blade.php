@@ -124,7 +124,7 @@
             <div class="relative group">
                 <div class="absolute -inset-4 border-2 border-[#d9a5a5] rounded-2xl rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
                 <div class="relative p-3 bg-white border border-gray-100 shadow-2xl rounded-2xl w-72 h-80 md:w-80 md:h-96 overflow-hidden transform group-hover:scale-[1.02] transition-transform duration-300">
-                    <img src="https://raw.githubusercontent.com/Marliya-Lestriani03/portfolio-lymarliyaa/f8168bc1d9499d0fe62537c9879986562d9ddb89/images/home.jpg" alt="Marliya Lestriani"
+                    <img src="{{ asset('images/home.jpg') }}" alt="Marliya Lestriani"
                          class="w-full h-full object-cover rounded-lg">
                 </div>
             </div>
@@ -145,7 +145,7 @@
                     Explore My Work 📁
                 </a>
                 <a href="#contact" class="px-8 py-3 border-2 border-[#6b3e3e] text-[#6b3e3e] rounded-full font-bold hover:bg-[#6b3e3e] hover:text-white transition-all duration-300 flex items-center justify-center gap-2">
-                    Let's Talk ✨
+                    Let's Tal ✨
                 </a>
             </div>
         </div>
@@ -166,7 +166,7 @@
             
             <div class="absolute transform -translate-x-12 -translate-y-16 rotate-[-8deg] hover:rotate-0 transition-all duration-500 z-10">
                 <div class="bg-white p-3 pb-10 shadow-xl rounded-sm border border-gray-100">
-                    <img src="{{ asset('https://raw.githubusercontent.com/Marliya-Lestriani03/marliya/78eb3ee3386faa82cddb7fe5e9ee64e89651a510/images/aboutme.jpg') }}" 
+                    <img src="{{ asset('images/aboutme2.jpeg') }}"
                          alt="Foto Marliya 1" 
                          class="w-44 md:w-56 h-auto transition-all duration-700 rounded-sm object-cover aspect-[3/4]">
                     <p class="mt-4 text-center font-serif text-[#6b3e3e] italic opacity-50 text-[10px]">Marliya Lestriani</p>
@@ -175,7 +175,7 @@
 
             <div class="absolute transform translate-x-12 translate-y-12 rotate-[6deg] hover:rotate-0 transition-all duration-500 z-20">
                 <div class="bg-white p-3 pb-10 shadow-2xl rounded-sm border border-gray-100">
-                    <img src="{{ asset('images/aboutme2.jpeg') }}" 
+                    <img src="{{ asset('images/aboutme.jpeg') }}" 
                          alt="Foto Marliya 2" 
                          class="w-44 md:w-56 h-auto transition-all duration-700 rounded-sm object-cover aspect-[3/4]">
                     <p class="mt-4 text-center font-serif text-[#6b3e3e] italic opacity-50 text-[10px]">Marliya Lestriani</p>
@@ -223,7 +223,7 @@
                 <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8 group">
                     <div class="shrink-0 z-10">
                         <div class="p-2 border-4 border-[#d9a5a5] rounded-2xl shadow-md hover-smooth-jiggle smooth-transition bg-white">
-                            <img src="/images/politala.jpeg" alt="Politala" class="w-20 h-20 md:w-24 md:h-24 object-cover rounded-lg">
+                            <img src="{{ asset('images/politala.jpeg') }}" alt="Politala" class="w-20 h-20 md:w-24 md:h-24 object-cover rounded-lg">
                         </div>
                     </div>
                     
@@ -250,7 +250,7 @@
                 <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8 group">
                     <div class="shrink-0 z-10">
                         <div class="p-2 border-4 border-[#6b3e3e] rounded-2xl shadow-md hover-smooth-jiggle smooth-transition bg-white">
-                            <img src="/images/smk.jpeg" alt="SMK" class="w-20 h-20 md:w-24 md:h-24 object-cover rounded-lg">
+                            <img src="{{ asset('images/smk.jpeg') }}" alt="SMK" class="w-20 h-20 md:w-24 md:h-24 object-cover rounded-lg">
                         </div>
                     </div>
                     
@@ -326,19 +326,19 @@
                     <div class="grid grid-cols-2 gap-3 w-64 md:w-3/4">
 
                         <div class="bg-white p-2 pb-6 shadow-lg rotate-[-5deg] hover:rotate-0 hover:scale-105 transition-all duration-300 border border-gray-100 flex-shrink-0">
-                            <img src="/images/hima.jpeg" class="w-full aspect-square object-cover" alt="Organisasi 1">
+                            <img src="{{ asset('images/hima.jpeg') }}" class="w-full aspect-square object-cover" alt="Organisasi 1">
                         </div>
 
                         <div class="bg-white p-2 pb-6 shadow-lg rotate-[8deg] hover:rotate-0 hover:scale-105 transition-all duration-300 border border-gray-100 mt-4 flex-shrink-0">
-                            <img src="/images/tik.jpeg" class="w-full aspect-square object-cover" alt="Organisasi 2">
+                            <img src="{{ asset('images/tik.jpeg') }}" class="w-full aspect-square object-cover" alt="Organisasi 2">
                         </div>
 
                         <div class="bg-white p-2 pb-6 shadow-lg rotate-[-3deg] hover:rotate-0 hover:scale-105 transition-all duration-300 border border-gray-100 flex-shrink-0">
-                            <img src="/images/pramuka.jpeg" class="w-full aspect-square object-cover" alt="Organisasi 3">
+                            <img src="{{ asset('images/pramuka.jpeg') }}" class="w-full aspect-square object-cover" alt="Organisasi 3">
                         </div>
 
                         <div class="bg-white p-2 pb-6 shadow-lg rotate-[5deg] hover:rotate-0 hover:scale-105 transition-all duration-300 border border-gray-100 mt-4 flex-shrink-0">
-                            <img src="/images/db.jpeg" class="w-full aspect-square object-cover" alt="Organisasi 4">
+                            <img src="{{ asset('images/db.jpeg') }}" class="w-full aspect-square object-cover" alt="Organisasi 4">
                         </div>
 
                     </div>
@@ -364,7 +364,7 @@
             
             <div class="group flex flex-col items-center text-center bg-white/60 p-4 rounded-[30px] shadow-md border border-white/40 hover:shadow-xl transition-all duration-300">
                 <div class="w-full aspect-[3/4] bg-white p-2 pb-6 shadow-sm rotate-[-1deg] group-hover:rotate-0 transition-all duration-300 mb-4 border border-gray-100 overflow-hidden">
-                    <img src="/images/jgd.jpeg" class="w-full h-full object-cover rounded-sm" alt="Junior Graphic Designer">
+                    <img src="{{ asset('images/jgd.jpeg') }}" class="w-full h-full object-cover rounded-sm" alt="Junior Graphic Designer">
                 </div>
                 <h3 class="text-sm font-serif text-[#6b3e3e] leading-tight font-bold px-2">Junior Graphic Designer</h3>
                 <p class="text-[10px] text-[#5a2d2d] italic mt-1 opacity-75 uppercase tracking-wider">BNSP — 2024</p>
@@ -372,7 +372,7 @@
 
             <div class="group flex flex-col items-center text-center bg-white/60 p-4 rounded-[30px] shadow-md border border-white/40 hover:shadow-xl transition-all duration-300">
                 <div class="w-full aspect-[3/4] bg-white p-2 pb-6 shadow-sm rotate-[1deg] group-hover:rotate-0 transition-all duration-300 mb-4 border border-gray-100 overflow-hidden">
-                    <img src="/images/jna.jpeg" class="w-full h-full object-cover rounded-sm" alt="Junior Network Administrator">
+                    <img src="{{ asset('images/jna.jpeg') }}" class="w-full h-full object-cover rounded-sm" alt="Junior Network Administrator">
                 </div>
                 <h3 class="text-sm font-serif text-[#6b3e3e] leading-tight font-bold px-2">Junior Network Administrator</h3>
                 <p class="text-[10px] text-[#5a2d2d] italic mt-1 opacity-75 uppercase tracking-wider">BNSP — 2024</p>
@@ -380,7 +380,7 @@
 
             <div class="group flex flex-col items-center text-center bg-white/60 p-4 rounded-[30px] shadow-md border border-white/40 hover:shadow-xl transition-all duration-300">
                 <div class="w-full aspect-[3/4] bg-white p-2 pb-6 shadow-sm rotate-[-1deg] group-hover:rotate-0 transition-all duration-300 mb-4 border border-gray-100 overflow-hidden">
-                    <img src="/images/tkj.jpeg" class="w-full h-full object-cover rounded-sm" alt="Teknik Komputer Jaringan">
+                    <img src="{{ asset('images/tkj.jpeg') }}" class="w-full h-full object-cover rounded-sm" alt="Teknik Komputer Jaringan">
                 </div>
                 <h3 class="text-sm font-serif text-[#6b3e3e] leading-tight font-bold px-2">Teknik Komputer Jaringan</h3>
                 <p class="text-[10px] text-[#5a2d2d] italic mt-1 opacity-75 uppercase tracking-wider">SMKN 1 Satui — 2023</p>
@@ -392,7 +392,7 @@
     
         <div class="group flex flex-col items-center text-center bg-white/60 p-4 rounded-[25px] shadow-md border border-white/40 hover:shadow-xl transition-all duration-300">
             <div class="w-full max-w-[260px] aspect-video bg-white p-1.5 pb-6 shadow-sm rotate-[1deg] group-hover:rotate-0 transition-all duration-300 mb-3 border border-gray-100 overflow-hidden">
-                <img src="/images/panitia.jpeg" class="w-full h-full object-cover rounded-sm" alt="Panitia">
+                <img src="{{ asset('images/panitia.jpeg') }}" class="w-full h-full object-cover rounded-sm" alt="Panitia">
             </div>
             <h3 class="text-sm font-serif text-[#6b3e3e] leading-tight font-bold px-2">Panitia Politala Fair</h3>
             <p class="text-[10px] text-[#5a2d2d] italic mt-1 opacity-75 uppercase tracking-wider">Politala — 2023</p>
@@ -434,7 +434,7 @@
                     <li class="flex gap-2"><span>•</span> Perbaikan Printer</li>
                 </ul>
 
-                <a href="https://drive.google.com/drive/folders/1b87pRYiz3uy8c1uB8YdY_ghSilE6ElMT" target="_blank" class="w-full py-3 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
+                <a href="https://drive.google.com/drive/folders/1si9Zq5YA-eE9l2UKF5l-0CxKlbQE9sEP?usp=drive_link" target="_blank" class="w-full py-3 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
                     <span>DOCUMENTATION</span>
                     <span class="text-lg">📁</span>
                 </a>
@@ -453,7 +453,7 @@
                     </p> 
                 </div>
 
-                <a href="https://drive.google.com/drive/folders/1b87pRYiz3uy8c1uB8YdY_ghSilE6ElMT" target="_blank" class="w-full py-3 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
+                <a href="https://drive.google.com/drive/folders/1eqyBbiXNkWMHHeQq5Eqhh-ulDR4xks3G?usp=drive_link" target="_blank" class="w-full py-3 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
                     <span>DOCUMENTATION</span>
                     <span class="text-lg">📁</span>
                 </a>
@@ -474,7 +474,7 @@
                     </div>
                 </div>
 
-                <a href="https://drive.google.com/drive/folders/1b87pRYiz3uy8c1uB8YdY_ghSilE6ElMT" target="_blank" class="w-full py-3 mt-8 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
+                <a href="https://drive.google.com/drive/folders/11cU35uxwaURbQIIbeR-1FXqLbbU1HBoZ?usp=drive_link" target="_blank" class="w-full py-3 mt-8 bg-[#6b3e3e] text-[#f5e9dc] rounded-full text-center text-xs font-bold tracking-widest hover:bg-[#d9a5a5] transition-colors flex items-center justify-center gap-2">
                     <span>DOCUMENTATION</span>
                     <span class="text-lg">📁</span>
                 </a>
