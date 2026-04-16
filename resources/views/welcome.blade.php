@@ -145,7 +145,7 @@
                     Explore My Work 📁
                 </a>
                 <a href="#contact" class="px-8 py-3 border-2 border-[#6b3e3e] text-[#6b3e3e] rounded-full font-bold hover:bg-[#6b3e3e] hover:text-white transition-all duration-300 flex items-center justify-center gap-2">
-                    Let's Tal ✨
+                    Let's Talk ✨
                 </a>
             </div>
         </div>
@@ -400,7 +400,7 @@
 
         <div class="group flex flex-col items-center text-center bg-white/60 p-4 rounded-[25px] shadow-md border border-white/40 hover:shadow-xl transition-all duration-300">
             <div class="w-full max-w-[260px] aspect-video bg-white p-1.5 pb-6 shadow-sm rotate-[-1deg] group-hover:rotate-0 transition-all duration-300 mb-3 border border-gray-100 overflow-hidden">
-                <img src="/images/pelatihan.jpeg" class="w-full h-full object-cover rounded-sm" alt="Pelatihan">
+                <img src="{{ asset('images/pelatihan.jpeg') }}" class="w-full h-full object-cover rounded-sm" alt="Pelatihan">
             </div>
             <h3 class="text-sm font-serif text-[#6b3e3e] leading-tight font-bold px-2">MS Office & Windows</h3>
             <p class="text-[10px] text-[#5a2d2d] italic mt-1 opacity-75 uppercase tracking-wider">Pelatihan — 2020</p>
