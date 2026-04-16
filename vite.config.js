@@ -10,6 +10,10 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    build: {
+    outDir: 'docs', // Pastikan ini docs
+    emptyOutDir: true,
+},
     server: {
         watch: {
             ignored: ['**/storage/framework/views/**'],
