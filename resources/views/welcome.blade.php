@@ -81,7 +81,7 @@
                 Sertifikat
                 <span class="absolute -bottom-1 left-0 w-0 h-[1.5px] bg-[#6b3e3e] transition-all duration-300 group-hover:w-full"></span>
             <a href="#pengalaman" class="relative text-xs font-bold text-white uppercase tracking-widest hover:text-[#6b3e3e] transition-colors group focus:outline-none">
-                Pengalaman
+                Pengalama
                 <span class="absolute -bottom-1 left-0 w-0 h-[1.5px] bg-[#6b3e3e] transition-all duration-300 group-hover:w-full"></span>
             </a>
         </div>

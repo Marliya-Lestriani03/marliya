@@ -10,6 +10,9 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    build: {
+        outDir: 'docs', // Mengalihkan output dari dist ke docs
+    },
     server: {
         watch: {
             ignored: ['**/storage/framework/views/**'],
